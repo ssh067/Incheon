@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/sub.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/eaeb383721.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html">
+                <div class="logo">
+                    <span>main_logo</span>
+                </div>
+            </a>
+            <a class="open_gnb"><span>메뉴열기</span></a>
+            <nav class="menu">
+                <ul class="menu_wrap">
+                    <li class="sub_wrap">
+                        <a href="#" data-=".main_wrap">항공권 검색</a>
+                        <ul class="sub none">
+                            <li><a href="#" class="sub_tit">입국날짜</a></li>
+                            <li><a href="#">여객 출발 시간표</a></li>
+                            <li><a href="#">여객 출발 운항편</a></li>
+                            <li><a href="#" class="sub_tit">출국 날짜</a></li>
+                            <li><a href="#">여객 도착 시간표</a></li>
+                            <li><a href="#">여객 도착 운항편</a></li>
+                            <li><a href="#" class="sub_tit">환승 안내</a></li>
+                            <li><a href="#">환승 위치 안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub_wrap">
+                        <a href="#" data-=".section_1" class="open">편의 시설</a>
+                        <ul class="sub none">
+                            <li><a href="#" class="sub_tit open">면세점</a></li>
+                            <li><a href="#" class="sub_tit">식당</a></li>
+                            <li><a href="#" class="sub_tit">라운지</a></li>
+                            <li><a href="#" class="sub_tit">인터넷 존</a></li>
+                            <li><a href="#" class="sub_tit">환승호텔</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub_wrap">
+                        <a href="#" data-=".section_2">안내,서비스</a>
+                        <ul class="sub none">
+                            <li><a href="#" class="sub_tit">터미널 안내</a></li>
+                            <li><a href="#">제 1여객 터미널</a></li>
+                            <li><a href="#">제 2여객 터미널</a></li>
+                            <li><a href="#">터미널 간 이동</a></li>
+                            <li><a href="#" class="sub_tit">공항지도</a></li>
+                            <li><a href="#">공항지도 미리보기</a></li>
+                            <li><a href="#">공항 편의 시설 위치</a></li>
+                            <li><a href="#" class="sub_tit">전망대</a></li>
+                            <li><a href="#">전망대위치</a></li>
+                            <li><a href="#">전망대 운영시간</a></li>
+                            <li><a href="#" class="sub_tit">전시/체험</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub_wrap">
+                        <a href="#" data-=".section_3_bg">오시는길</a>
+                        <ul class="sub none">
+                            <li><a href="#" class="sub_tit">주차안내</a></li>
+                            <li><a href="#" class="sub_tit">대중교통</a></li>
+                            <li><a href="#">버스</a></li>
+                            <li><a href="#">택시</a></li>
+                            <li><a href="#">지하철</a></li>
+                            <li><a href="#" class="sub_tit">공항버스</a></li>
+                            <li><a href="#">지역별 안내</a></li>
+                            <li><a href="#">타는곳 안내</a></li>
+                            <li><a href="#" class="sub_tit">리무진</a></li>
+                            <li><a href="#">리무진서비스</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub_wrap sub_wrap2"><a href="#">SIRE MAP</a></li>
+                    <li class="sub_wrap sub_wrap2"><a href="#">LOG IN</a></li>
+                    <li class="sub_wrap sub_wrap2"><a href="#">LANGUAGE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="freeshop">
+        <div class="shop_menu">
+            <h1>면세점</h1>
+            <h3>Duty Free Shop</h3>
+            <p>고품격 쇼핑공간, 편리한 쇼핑시설, 더 많은 브랜드, 더 많은 스타일</p>
+            <ul>
+                <li class="active"><a href="#">신세계 면세점</a></li>
+                <li><a href="#">롯데 면세점</a></li>
+                <li><a href="#">신라 면세점</a></li>
+                <li><a href="#">현대 면세점</a></li>
+            </ul>
+        </div>
+        <div class="shop_sub_menu">
+            <ul>
+                <li><a href="#">제1여객터미널</a></li>
+                <li><a href="#">제2여객터미널</a></li>
+                <li><a href="#">지점안내</a></li>
+                <li><a href="#">운영시간</a></li>
+                <li><a href="#">행사안내</a></li>
+            </ul>
+        </div>
+        <div class="shop_img">
+            <div class="shop1">
+                <p>1.</p>
+                <p>SSG DUTY FREE</p>
+            </div>
+            <div class="shop1_txt">
+                <h1>Category</h1>
+                <ul>
+                    <li><a href="#">명품브랜드</a></li>
+                    <li><a href="#">향수·화장품</a></li>
+                    <li><a href="#">주류·담배</a></li>
+                    <li><a href="#">패션·액세서리</a></li>
+                    <li><a href="#">포장식품</a></li>
+                    <li><a href="#">유아동</a></li>
+                    <li><a href="#">전자제품</a></li>
+                    <li><a href="#">기타</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="event_list">
+        <div class="event_txt">
+            <h1>EVENT</h1>
+            <h3>여행의 설렘, 신세계로부터</h3>
+            <p>SSG DUTY FREE 신세계 면세점 오늘의 이벤트를 확인하세요</p>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/sub/brand_bg.jpg" alt="">
+                    <ul>
+                        <li><h1>01</h1></li>
+                        <li>
+                            <p><h2>신세계백화점</h2><Br>
+                            CC콜렉트.쥬크.듀엘.모조에스핀<Br>
+                            UP TO 70% OFF<Br>
+                            #ZOOC #DEWL #CC Collest
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul>
+                        <li><h1>02</h1></li>
+                        <li>
+                            <p><h2>신세계백화점</h2><Br>
+                            Converse<Br>
+                            가뿐함 봄맞이 데일리룩에<Br>
+                            빠질 수 없는 아이템, 컨버스
+                            </p>
+                        </li>
+                    </ul>
+                    <img src="img/sub/brand_bg2.jpg" alt="" class="se_img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/sub/brand_bg3.jpg" alt="">
+                    <ul>
+                        <li><h1>03</h1></li>
+                        <li>
+                            <p><h2>신세계백화점</h2><Br>
+                            신학기 슈즈 대전<Br>
+                            인기 브랜드 특가전<Br>
+                            #신학기 #새학기 #신발 #슈즈 #Shoes
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shop_list">
+        <div class="swiper mySwiper">
+            <h1>Jewelry & Fashion</h1>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div>
+                    <img src="img/sub/brand1.jpg" alt="">
+                    <a href="#" class="brand_m">스와로브스키 SWAROVSKI</a>
+                    <a href="#" class="brand_t">DAZZLING SWAN:PE LNG CZMO/ROS</a>
+                    <a href="#" class="brand_t_c">102,440원</a>
+                </div>
+                <div>
+                    <img src="img/sub/brand2.jpg" alt="">
+                    <a href="#" class="brand_m">프레드릭 콘스탄트 FREDERIQUE CONSTANT</a>
+                    <a href="#" class="brand_t">CLASSICS BUSINESS TIMER 남</a>
+                    <a href="#" class="brand_t_c">908,000원</a>
+                </div>
+                <div>
+                    <img src="img/sub/brand3.jpg" alt="">
+                    <a href="#" class="brand_m">스와로브스키 SWAROVSKI</a>
+                    <a href="#" class="brand_t">ICONIC SWAN:PE JCKT JET/CRY/ROS</a>
+                    <a href="#" class="brand_t_c">344,000원</a>
+                </div>
+                <div>
+                    <img src="img/sub/brand4.jpg" alt="">
+                    <a href="#" class="brand_m">스와로브스키 SWAROVSKI</a>
+                    <a href="#" class="brand_t">CREATIVITY:PE CIR SMALL CRY/RHS</a>
+                    <a href="#" class="brand_t_c">240,600원</a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <img src="img/sub/brand5.jpg" alt="">
+                    <a href="#" class="brand_m">필그림 PILGRIM</a>
+                    <a href="#" class="brand_t">EARRING</a>
+                    <a href="#" class="brand_t_c">120,000원</a>
+                </div>
+                <div>
+                    <img src="img/sub/brand6.jpg" alt="">
+                    <a href="#" class="brand_m">밀튼 스텔리 MILTON STELLE</a>
+                    <a href="#" class="brand_t">로즈 나이트 실버 귀걸이</a>
+                    <a href="#" class="brand_t_c">220,000원</a>
+                </div>
+                <div>
+                    <img src="img/sub/brand7.jpg" alt="">
+                    <a href="#" class="brand_m">밀튼 스텔리 MILTON STELLE</a>
+                    <a href="#" class="brand_t">오팔 아그네스 실버 귀걸이</a>
+                    <a href="#" class="brand_t_c">330,000원</a>
+                </div>
+                <div>
+                    <img src="img/sub/brand8.jpg" alt="">
+                    <a href="#" class="brand_m">타미힐피거 시계 TOMMY HILFIGER WATCH</a>
+                    <a href="#" class="brand_t">ANGLA 36 - Ladies</a>
+                    <a href="#" class="brand_t_c">798,000원</a>
+                </div>
+            </div>
+        </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="shop_list">
+        <div class="swiper mySwiper">
+            <h1>Bag & Carrier</h1>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div>
+                    <img src="img/sub/brand2-1.jpg" alt="">
+                    <a href="#" class="brand_m">어썸니즈 AWESOME NEEDS</a>
+                    <a href="#" class="brand_t">세컨에코백 체크블랙</a>
+                    <a href="#" class="brand_t_c">242,000원</a>
+                </div>
+                <div>
+                    <img src="img/sub/brand2-2.jpg" alt="">
+                    <a href="#" class="brand_m">부가티 BUGATTI</a>
+                    <a href="#" class="brand_t">EMILY&NOAH MIALIN 61294.100</a>
+                    <a href="#" class="brand_t_c">701,000원</a>
+                </div>
+                <div>
+                    <img src="img/sub/brand2-3.jpg" alt="">
+                    <a href="#" class="brand_m">캠브릿지 사첼 Cambridge Satchel</a>
+                    <a href="#" class="brand_t">POPMI1311PGH10101 미니 포피백 살구색 Mini Poppy Bag</a>
+                    <a href="#" class="brand_t_c">1,030,000원</a>
+                </div>
+                <div>
+                    <img src="img/sub/brand2-4.jpg" alt="">
+                    <a href="#" class="brand_m">수잇수잇 SUITSUIT</a>
+                    <a href="#" class="brand_t">TR-12229 Fabulous Fifties Luminous Mint SET</a>
+                    <a href="#" class="brand_t_c">348,000원</a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <img src="img/sub/brand2-5.jpg" alt="">
+                    <a href="#" class="brand_m">수잇수잇 SUITSUIT</a>
+                    <a href="#" class="brand_t">TR-71018 Fabulous Seventies Coral Cloud 28</a>
+                    <a href="#" class="brand_t_c">420,000원</a>
+                </div>
+                <div>
+                    <img src="img/sub/brand2-6.jpg" alt="">
+                    <a href="#" class="brand_m">쌤소나이트 SAMSONITE</a>
+                    <a href="#" class="brand_t">Z3409276(A) TRAVEL LINK ACC. LF Foldable Lug. Cover S BLACK</a>
+                    <a href="#" class="brand_t_c">607,000원</a>
+                </div>
+                <div>
+                    <img src="img/sub/brand2-7.jpg" alt="">
+                    <a href="#" class="brand_m">렛츠다이어트 LET`S DIET</a>
+                    <a href="#" class="brand_t">Let`s diet backpack L(khaki)</a>
+                    <a href="#" class="brand_t_c">12,980원</a>
+                </div>
+                <div>
+                    <img src="img/sub/brand2-8.jpg" alt="">
+                    <a href="#" class="brand_m">소프트서울 SOFT SEOUL</a>
+                    <a href="#" class="brand_t">half moon leather bag_Cream</a>
+                    <a href="#" class="brand_t_c">39,000원</a>
+                </div>
+            </div>
+        </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    
+    <div class="sub_footer">
+        <footer>
+            <div class="inner_footer">
+                <div class="sitemap">
+                    <div>
+                        <h2>매장안내</h2>
+                        <ul>
+                            <li><a href="#">신세계면세점 소개</a></li>
+                            <li><a href="#">명동점</a></li>
+                            <li><a href="#">부산점</a></li>
+                            <li><a href="#">인천공항점 T1</a></li>
+                            <li><a href="#">인천공항점 T2</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>고객센터</h2>
+                        <ul>
+                            <li><a href="#">전화상담</a></li>
+                            <li><a href="#">(09:00 ~ 18:00, 연중무휴)</a></li>
+                            <li><a href="#"><strong>1661-8778</strong></a></li>
+                        </ul><br>
+                        <ul>
+                            <li><a href="#">챗봇상담</a></li>
+                            <li><a href="#">(24시간, 연중무휴)</a></li>
+                            <li><a href="#"><strong>챗봇 신디 바로가기</strong></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>공지사항</h2>
+                        <ul>
+                            <li><a href="#">[뷰티체험단] 버버리뷰티 체험단 모집인원 변경 안내</a></li>
+                            <li><a href="#">브랜드 일부 상품 가격 조정 안내</a></li>
+                            <li><a href="#">[당첨자발표] 21년 온라인몰 구매고객 감사 '땡스투유' 이벤트 당첨 안내</a></li>
+                            <li><a href="#">[당첨자발표] 2022년 호랑이해 기념 럭키드로우 이벤트 경품 당첨 안내</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>약관 및 관리방침</h2>
+                        <ul>
+                            <li><a href="#">약관 및 관리방침</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">청소년보호정책</a></li>
+                            <li><a href="#">영상정보처리기기운영관리방침</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </footer>
+    </div>
+    <div class="footer_wrap">
+        <footer class="center">
+            <div class="left">
+                <h1>인천국제공항 고객센터 <p>1577-2600</p></h1><br>
+                <small>인천국제공항 제1여객터미널 : 22382 인천시 중구 공항로 272 </small><br>
+                <small>인천국제공항 제2여객터미널 : 22382 인천시 중구 제2터미널대로 446</small><br>
+                <small>인천국제공항공사 : 22382 인천시 중구 공항로 424번길 47</small><br>
+                <div class="tip">
+                <small><p>Copyright Incheon International Airport Corporation. All rights reserved.</p></small>
+                </div>
+            </div>
+            <div class="sns">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="select">
+                <p class="selectbtn">
+                    <a href="">관련사이트</a>
+                </p>
+
+                <p class="selectmenu">
+                    <a href="#">전자입찰시스템</a>
+                    <a href="#">인터넷청구시스템</a>
+                    <a href="#">장애물관리안내</a>
+                    <a href="#">항공물류정보시스템</a>
+                    <a href="#">항공보안교육원</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+<div class="top">
+    <ul>
+        <li><a href="#" class="Tel">Tel</a></li>
+        <li><a href="#">top</a></li>
+    </ul>
+</div>
+</html>
