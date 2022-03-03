@@ -52,7 +52,7 @@ header div {width:1200px;
     .none {display:none;}
     .block {display:block;}
 
-header.scroll {background:rgba(255, 255, 255, 0.8); box-shadow: 0 0 20px;}
+header.scroll {background:rgba(255, 255, 255, 0.5); box-shadow: 0 0 20px;}
 header.scroll .sub_wrap>a {color:#333; font-weight:bold; transition: 0.5s;}
 header.scroll .logo {background:url('../img/main_logo.png')no-repeat;}
 header.scroll .menu ul li a  {color:#333;}
@@ -68,18 +68,17 @@ section.bg {height:35vw; padding:0;
 .swiper-slide .swiper_txt {position: absolute;}
 .swiper-slide .swiper_txt1 {right:10%;}
 .swiper-slide .swiper_txt1 h1 {font-size:3vw;
-                                color:#fff;
-                                text-align: end;}
-.swiper-slide .swiper_txt1 p {font-size:calc(10px + 0.5vw);
+                                color:#fff;}
+.swiper-slide .swiper_txt1 p {font-size:1vw;
                                 color:#fff;
                                 letter-spacing:1vw;}
 .swiper-slide .swiper_txt2 h1 {font-size:2.5vw;
                                 color:#fff;
                                 letter-spacing:0.5vw;}
-.swiper-slide .swiper_txt2 p {font-size:calc(10px + 0.5vw);
+.swiper-slide .swiper_txt2 p {font-size:1vw;
                                 color:#fff;
                                 padding:3vw 0;}
-.swiper-slide .swiper_txt2 .btn {font-size:calc(10px + 0.2vw);
+.swiper-slide .swiper_txt2 .btn {font-size: 0.6vw;
                                 color:#fff;
                                 padding:0.2vw 0.5vw;
                                 border:1px solid #fff;
@@ -91,11 +90,11 @@ section.bg {height:35vw; padding:0;
 .swiper-slide .swiper_txt3 {right:10%;}
 .swiper-slide .swiper_txt3 h1 {font-size:2.5vw;
                                 color:#fff;}
-.swiper-slide .swiper_txt3 p {font-size:calc(10px + 0.5vw);
+.swiper-slide .swiper_txt3 p {font-size:1vw;
                                 color:#fff;
                                 letter-spacing:0.5vw;
                                 padding:3vw 0;}
-.swiper-slide .swiper_txt3 .btn {font-size:calc(10px + 0.2vw);
+.swiper-slide .swiper_txt3 .btn {font-size: 0.6vw;
                                 color:#fff;
                                 padding:0.2vw 0.5vw;
                                 border:1px solid #fff;
@@ -106,13 +105,12 @@ section.bg {height:35vw; padding:0;
 .swiper-slide .swiper_txt3 .btn:hover {background:#ff7403;}
 .swiper-slide .swiper_txt4 {right:10%;}
 .swiper-slide .swiper_txt4 h1 {font-size:3vw;
-                                color:#fff;
-                                text-align: end;}
-.swiper-slide .swiper_txt4 p {font-size:calc(10px + 0.5vw);
+                                color:#fff;}
+.swiper-slide .swiper_txt4 p {font-size:1vw;
                                 text-align: end;
                                 color:#fff;
                                 letter-spacing:0.5vw;
-                                padding-top:10px;}
+                                line-height:2vw;}
 
 .swiper {
     width: 100%;
@@ -210,11 +208,11 @@ ul.goods::after {display:block; content:""; clear:both}
             margin:auto;}
 .section_1  > h2 {margin-bottom:50px;
                 text-align:right;
-                color: rgba(0,0,0,0.3);
+                color: rgba(0,0,0,0.1);
                 font-size:calc(30px + 3vw);}
 .sec1_slider {margin: auto;}
-.sec1_slider div {height:600px; width:90%; margin: auto;}
-.sec1_slider img {width:100%; height:auto; margin: auto; margin-bottom:50px;
+.sec1_slider div {height:600px; width:95%; margin: auto;}
+.sec1_slider img {width:100%; height:auto; margin: auto;
                 background-size:contain;}
 
 .shopping {background:#ff740340;
@@ -290,7 +288,7 @@ ul.goods::after {display:block; content:""; clear:both}
             margin:auto;}
 .section_2 > h2 {margin-bottom:50px;
                 text-align:left;
-                color: rgba(0,0,0,0.3);
+                color: rgba(0,0,0,0.1);
                 font-size:calc(30px + 3vw);}
 .section_2 .s2_img {float: left;}
 .section_2 .s2_img .img_wrap {position: relative;
@@ -323,15 +321,12 @@ ul.goods::after {display:block; content:""; clear:both}
 .section_3_bg {width:100%; height:40vh;
             background: url('../img/s_3_bg.jpg') fixed;
             background-size:cover;}
-.section_3 {position: relative;
-            color:#ff7403;
-            top:40%; 
-            text-align:center;}
+.section_3 {position: relative; color:#ff7403; top:40%;  text-align:center;}
 .section_3 h1 {padding-bottom:50px;}
 .section_3 ul {}
 .section_3 ul li {display: inline-block; margin:0 30px;}
 .section_3 ul li a {color:#fff;
-    font-size:calc(10px + 0.2vw);
+    font-size:20px;
     padding:5px 10px;
     background:#22222280;
     border: 1px solid #fff;
